@@ -22,11 +22,19 @@ header {
 .nav > ul > li > a {
   text-decoration: none;
   font-size: 25px;
-  color: rgb(123, 69, 49);
+  color: white;
 }
 .nav ul li :hover {
   color: rgb(161, 124, 131);
 }
 .nav ul li :active {
   color: rgb(25, 8, 2);
+}
+.background-img {
+  width: 100vw;
+  height: 60vh;
+}
+.background-img img {
+  width: 100vw;
+  height: 60vh;
 }
