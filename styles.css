@@ -38,3 +38,17 @@ header {
   width: 100vw;
   height: 60vh;
 }
+
+.container {
+  display: flex;
+  max-width: 100vw;
+  justify-content: space-evenly;
+}
+.inner-container {
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 20px;
+  border: 2px solid wheat;
+}
