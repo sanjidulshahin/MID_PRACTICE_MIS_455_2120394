@@ -3,6 +3,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -12,7 +18,7 @@
      -->
     <header>
       <div class="nav">
-        <ul>
+        <ul class="kode-mono">
           <li><a href="index.html">Home</a></li>
           <li><a href="products.html">Products</a></li>
           <li><a href="contact.html">Contact Us</a></li>
@@ -22,7 +28,37 @@
     <div class="background-img">
       <img src="Images/background-02.jpg" alt="" />
     </div>
-
+    <div class="contact-container">
+      <div class="left-container">
+        <p id="beg-para">Contact With Us</p>
+        <h2>HAVE QUESTIONS? FEEL FREE <br />TO WRITE US</h2>
+        <p id="para-02">
+          We will be delighted to hear from you. <br />Just drop you queries in
+          the right box
+        </p>
+      </div>
+      <div class="contact-right-container">
+        <form action="">
+          <div class="grid-1">
+            <input type="text" placeholder="Your Name" class="grid-01" />
+            <input
+              type="text"
+              placeholder="Email Address"
+              name=""
+              class="grid-01"
+            />
+            <input type="text" placeholder="Phone Number" class="grid-01" />
+            <input type="text" placeholder="Subject" name="" class="grid-01" />
+          </div>
+          <div class="grid-2">
+            <input type="text" placeholder="Message" class="grid-02" />
+          </div>
+          <div class="grid-3">
+            <button type="submit" class="grid-03">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
     <footer>
       <div class="footer-first-layer">
         <div class="left">
@@ -46,7 +82,7 @@
           <p>Your product</p>
         </div>
       </div>
-      <div class="txt">
+      <div class="txt dancing-script">
         <h4 id="rights-txt">@all rights reserved to @SA Cart</h4>
       </div>
     </footer>
