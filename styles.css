@@ -27,6 +27,7 @@ header {
 }
 .nav ul li :hover {
   color: rgb(161, 124, 131);
+  border: 1px solid rgb(142, 89, 99);
 }
 .nav ul li :active {
   color: rgb(25, 8, 2);
@@ -51,7 +52,7 @@ header {
   padding: 20px;
   margin: 10px;
   margin-left: 20px;
-  border: 2px solid wheat;
+  border: 2px solid rgb(232, 225, 212);
 }
 footer {
   background-color: rgb(35, 47, 62);
@@ -69,6 +70,9 @@ footer {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+}
+.txt h4 {
+  font-size: 25px;
 }
 .dancing-script {
   font-family: "Dancing Script", cursive;
