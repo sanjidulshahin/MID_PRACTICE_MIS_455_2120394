@@ -1,5 +1,32 @@
-* {
+body {
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav > ul {
+  list-style: none;
+  display: flex;
+}
+.nav > ul > li {
+  margin: 10px;
+  margin-right: 40px;
+}
+.nav > ul > li > a {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(123, 69, 49);
+}
+.nav ul li :hover {
+  color: rgb(161, 124, 131);
+}
+.nav ul li :active {
+  color: rgb(25, 8, 2);
 }
